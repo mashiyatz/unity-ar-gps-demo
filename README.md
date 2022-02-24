@@ -19,8 +19,8 @@ A simple AR demonstration using the AR+GPS Location package from the Unity Store
 * Toggle UI on and off so that you can see landmarks onscreen more clearly. 
 
 <div>
-<img src="https://user-images.githubusercontent.com/43973044/155573273-ac7177ff-bbf8-4d7a-9c2b-9ef60e19603d.jpg" style="width:30vw"/>
-<img src="https://user-images.githubusercontent.com/43973044/155573282-55047e87-d8b3-41d9-860e-3f09d424df1e.jpg" style="width:30vw"/>
+<img src="https://user-images.githubusercontent.com/43973044/155573273-ac7177ff-bbf8-4d7a-9c2b-9ef60e19603d.jpg" style="width:45%"/>
+<img src="https://user-images.githubusercontent.com/43973044/155573282-55047e87-d8b3-41d9-860e-3f09d424df1e.jpg" style="width:45%"/>
 </div>
 
 
