@@ -11,3 +11,9 @@ A simple AR demonstration using the AR+GPS Location package from the Unity Store
 3. Open the project on Unity3D ver. 2020.3.8. (If Unity prompts you to start in safe mode, leave an issue.) 
 4. Change Game View aspect ratio to 1920x1080 portrait. In `File/Build Settings` change platform to Android.  
 5. Connect Android device, then Build & Run to device. 
+
+## Main Features
+* Create landmarks in AR by inputting latitude and latitude coordinates. Save these coordinates with labels and a menu.
+* Find your current location with the press of a button. 
+* Click on landmarks to see their text descriptions. 
+* Toggle UI on and off so that you can see landmarks onscreen more clearly. 
