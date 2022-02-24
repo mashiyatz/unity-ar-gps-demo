@@ -6,7 +6,6 @@ using TMPro;
 public class CreateLandmark : MonoBehaviour
 {
     public Transform canvas;
-    public GameObject landmarkPrefab;
     public GameObject markerPrefab;
 
     private float lat;
@@ -31,7 +30,6 @@ public class CreateLandmark : MonoBehaviour
         AddToMenu();
 
         GameObject newLandmark;
-        // newLandmark = Instantiate(landmarkPrefab);
         newLandmark = Instantiate(markerPrefab);
 
         newLandmark.GetComponent<PlaceAtLocation>().Location = new Location()
@@ -52,12 +50,6 @@ public class CreateLandmark : MonoBehaviour
             MovementSmoothing = 0.1f,
             UseMovingAverage = false
         };
-
-        // Instantiate(markerPrefab, newLandmark.transform);
-        // Can I replace landmarkPrefab with markerPrefab? I think original intention of separating them
-        // is to make it possible to use different prefab assets for marker (e.g., capsule, cube, etc.) but
-        // it seems like an extra unnecessary step.
-
     }
 
     private void AddToMenu()
