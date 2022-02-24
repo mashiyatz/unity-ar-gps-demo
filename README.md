@@ -1,5 +1,5 @@
 # Unity AR+GPS Demo 
-A simple AR demonstration using the AR+GPS Location package from the Unity Store.
+A simple AR demonstration using the AR+GPS Location package from the Unity Store. The goal of this project is to demonstrate how latitude and longitude GPS coordinates from a device or user input can be used in AR applications.
 
 ## Dependencies
 * Unity3D 2020.3.8 (LTS)
@@ -17,3 +17,23 @@ A simple AR demonstration using the AR+GPS Location package from the Unity Store
 * Find your current location with the press of a button. 
 * Click on landmarks to see their text descriptions. 
 * Toggle UI on and off so that you can see landmarks onscreen more clearly. 
+
+## Code Summary
+
+### [`CreateLandmark.cs`](./AR%20Project/Assets/Scripts/CreateLandmark.cs)
+Generates new landmarks using the AR+GPS Location package, given a latitude, longitude, and label into the UI input fields. Adds new landmark entries into the UI dropdown menu, and allows the user to retrieve latitude and longitude through selection from the menu. 
+
+### [`GetPermissions.cs`](./AR%20Project/Assets/Scripts/GetPermissions.cs)
+Prompts the user for permission to access the Android device's GPS (fine location) and camera. 
+
+### [`GetCurrentLocation.cs`](./AR%20Project/Assets/Scripts/GetCurrentLocation.cs)
+Using the Android device's GPS, retrieve the user's latitude and longitude and display them on the UI input fields.  
+
+### [`LandmarkDescription.cs`](./AR%20Project/Assets/Scripts/LandmarkDescription.cs)
+Assigns default to new landmarks. Can potentially be expanded to retrieve text descriptions from API. 
+
+### [`InteractWithLandmark.cs`](./AR%20Project/Assets/Scripts/InteractWithLandmark.cs)
+Trigger display of landmark description with touch.
+
+### [`ToggleUI.cs`](./AR%20Project/Assets/Scripts/ToggleUI.cs)
+Hide or display UI elements.
